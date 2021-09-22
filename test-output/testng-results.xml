@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-22T18:12:37 IST" name="Default suite" finished-at="2021-09-22T18:13:32 IST" duration-ms="54898">
+    <groups>
+    </groups>
+    <test started-at="2021-09-22T18:12:37 IST" name="Default test" finished-at="2021-09-22T18:13:32 IST" duration-ms="54898">
+      <class name="Qapitol.TrelloBoardTripPreparation.TrelloFrst">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:12:37 IST" name="setup" finished-at="2021-09-22T18:12:43 IST" duration-ms="6104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:1, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:12:43 IST" name="login" description="Login to trello" finished-at="2021-09-22T18:12:55 IST" duration-ms="12038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="board()[pri:2, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:12:55 IST" name="board" description="Create Board" finished-at="2021-09-22T18:13:12 IST" duration-ms="17114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- board -->
+        <test-method signature="toDo()[pri:3, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:13:12 IST" name="toDo" description="Enter List Title and Add cards" finished-at="2021-09-22T18:13:16 IST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toDo -->
+        <test-method signature="doing()[pri:4, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:13:16 IST" name="doing" description="Move cards frome Do to Doing" finished-at="2021-09-22T18:13:18 IST" duration-ms="1421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doing -->
+        <test-method signature="done()[pri:5, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:13:18 IST" name="done" description="Move cards from doing to done" finished-at="2021-09-22T18:13:23 IST" duration-ms="5688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method signature="deleteBoard()[pri:6, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:13:23 IST" name="deleteBoard" description="Delete Board from workspace" finished-at="2021-09-22T18:13:24 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+        <test-method signature="logout()[pri:7, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:13:24 IST" name="logout" description="Logout" finished-at="2021-09-22T18:13:32 IST" duration-ms="7979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Qapitol.TrelloBoardTripPreparation.TrelloFrst@865dd6]" started-at="2021-09-22T18:13:32 IST" name="close" finished-at="2021-09-22T18:13:32 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Qapitol.TrelloBoardTripPreparation.TrelloFrst -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
