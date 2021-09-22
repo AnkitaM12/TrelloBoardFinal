@@ -61,7 +61,8 @@ public class TrelloFrst {
 	public void board()
 	{
 		
-		driver.findElement(By.xpath("//button[@class='_2Hkk1T39xw4RMQ _3TTqkG5muwOzqZ ZOUktZwsING7-0']/p")).click();
+		//driver.findElement(By.xpath("//button[@class='_2Hkk1T39xw4RMQ _3TTqkG5muwOzqZ ZOUktZwsING7-0']/p")).click();
+		driver.findElement(By.xpath("//button[@class='_2Hkk1T39xw4RMQ _3a_KkrafxZmWN4 _3TTqkG5muwOzqZ ZOUktZwsING7-0']/p")).click();
 		driver.findElement(By.xpath("//button[@class='_3Qtx4lodxp9J0E']/span[text()='Create board']")).click();
 		driver.findElement(By.xpath("//input[@placeholder='Add board title']")).sendKeys("Goa Trip Preparation");
 		driver.findElement(By.xpath("//button[text()='Create board']")).click();
@@ -141,7 +142,8 @@ public class TrelloFrst {
 	public void logout()
 	{
 		driver.findElement(By.xpath("//span[@title='Ankita (ankita980)']")).click();
-		driver.findElement(By.xpath("/html/body/div[10]/div/section/div/nav/ul/li[8]/button")).click();
+		driver.findElement(By.xpath("//button[@class='_3Qtx4lodxp9J0E']/span[text()='Log out']")).click();
+		//driver.findElement(By.xpath("/html/body/div[10]/div/section/div/nav/ul/li[8]/button")).click();
 		driver.findElement(By.xpath("//*[@id='logout-submit']/span")).click();
 		String actual=driver.getCurrentUrl();
 //    	String expected="//id.atlassian.com/logout";
@@ -154,7 +156,4 @@ public class TrelloFrst {
 		driver.quit();
 	}
 }
-	
-	
-
 
